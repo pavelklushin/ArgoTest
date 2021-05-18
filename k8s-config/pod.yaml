@@ -5,7 +5,7 @@ metadata:
   labels:
     run: nginx
   name: nginx
-  namespaces: test-namespace
+  namespace: test-namespace
 spec:
   containers:
   - image: nginx
